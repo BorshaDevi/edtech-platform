@@ -1,12 +1,12 @@
+import { Button } from "@/components/ui/button";
 import {
     Card,
-    CardAction,
     CardContent,
     CardDescription,
-    CardFooter,
     CardHeader,
     CardTitle,
 } from "@/components/ui/card"
+import Link from "next/link";
 const CourseSection = () => {
     return (
         <div className="mt-10">
@@ -24,7 +24,7 @@ const CourseSection = () => {
                             <CardDescription>{cou.description.substring(0, 50) + "..."}</CardDescription>
                         </CardHeader>
                         <CardContent>
-                            <p>Instructor: {cou.instructor}</p>
+                            <Link href={`/coursesection/${cou.id}`}><Button className='w-full'>Course Detail</Button></Link>
                         </CardContent>
                     </Card> 
                     ))}
