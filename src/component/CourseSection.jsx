@@ -5,7 +5,7 @@ const CourseSection=()=>{
             <h2 className="text-center text-xl font-semibold">Our Courses</h2>
             {/* search filter sort */}
             <div>
-
+               
             </div>
             <div className="grid grid-cols-3 gap-3">
               
