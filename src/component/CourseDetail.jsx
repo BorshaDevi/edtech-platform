@@ -1,7 +1,7 @@
 
 
-const CourseDetail=async({params})=>{
-    const{id}=await params
+const CourseDetail=({params})=>{
+    const{id}=params
     console.log(id)
     return(
         <div>

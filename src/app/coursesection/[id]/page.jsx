@@ -1,3 +1,4 @@
+'use client'
 import CourseDetail from "@/component/CourseDetail"
 import { useParams } from "next/navigation"
 
