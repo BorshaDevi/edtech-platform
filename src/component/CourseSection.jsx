@@ -8,7 +8,7 @@ import {
     CardTitle,
 } from "@/components/ui/card"
 import Link from "next/link";
-const CourseSection =async() => {
+const CourseSection =() => {
     return (
         <div className="mt-10">
             <div className="">
