@@ -1,11 +1,13 @@
 
 
-const CourseDetail=({params})=>{
-    const{id}=params
+const CourseDetail = ({ params }) => {
+    const { id } = params
     console.log(id)
-    return(
+    return (
         <div>
-             <h1>{id}</h1>
+           <div>
+            
+           </div>
         </div>
     )
 }
