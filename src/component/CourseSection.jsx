@@ -17,6 +17,8 @@ const CourseSection =() => {
                 <div>
 
                 </div>
+
+                {/* Card */}
                 <div className="grid grid-cols-3 gap-10 ml-10 mt-10">
                     {courses.map(cou => (
                      <Card key={cou.id}>
@@ -31,6 +33,9 @@ const CourseSection =() => {
                     </Card> 
                     ))}
                 </div>
+
+                {/* pagination */}
+              
             </div>
         </div>
     )
