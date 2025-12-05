@@ -12,7 +12,9 @@
             "Project: To-Do App"
         ],
         "img":"https://res.cloudinary.com/dg1okcxsx/image/upload/v1764839127/html-css-collage-concept-with-person_xhj7ai.jpg",
+        "category": "Web Development",
         "price": 49.99
+
 
     },
     {
@@ -28,6 +30,7 @@
             "Full MERN Project"
         ],
         "img":"https://res.cloudinary.com/dg1okcxsx/image/upload/v1764839127/html-css-collage-concept-with-person_xhj7ai.jpg",
+        "category": "Web Development",
         "price": 99.99
     },
     {
@@ -43,6 +46,7 @@
             "Mini Projects"
         ],
         "img":"https://res.cloudinary.com/dg1okcxsx/image/upload/v1764839127/html-css-collage-concept-with-person_xhj7ai.jpg",
+        "category": "Data Science",
         "price": 39.99
     },
     {
@@ -58,6 +62,7 @@
             "Analytics"
         ],
         "img":"https://res.cloudinary.com/dg1okcxsx/image/upload/v1764839127/html-css-collage-concept-with-person_xhj7ai.jpg",
+        "category": "Marketing",
         "price": 59.99
     },
     {
@@ -73,6 +78,7 @@
             "Portfolio Project"
         ],
         "img":"https://res.cloudinary.com/dg1okcxsx/image/upload/v1764839127/html-css-collage-concept-with-person_xhj7ai.jpg",
+        "category": "Design",
         "price": 69.99
     },
     {
@@ -88,6 +94,7 @@
             "Deployment"
         ],
         "img":"https://res.cloudinary.com/dg1okcxsx/image/upload/v1764839127/html-css-collage-concept-with-person_xhj7ai.jpg",
+       "category": "Web Development",
         "price": 79.99
     },
     {
@@ -103,6 +110,7 @@
             "Mock Interview"
         ],
         "img":"https://res.cloudinary.com/dg1okcxsx/image/upload/v1764839127/html-css-collage-concept-with-person_xhj7ai.jpg",
+       "category": "Data Science",
         "price": 89.99
     },
     {
@@ -118,6 +126,7 @@
             "Publish App"
         ],
         "img":"https://res.cloudinary.com/dg1okcxsx/image/upload/v1764839121/programming-background-with-person-working-with-codes-computer_dg5zi6.jpg",
+        "category": "App Development",
         "price": 89.99
     },
     {
@@ -133,6 +142,7 @@
             "ML Project"
         ],
         "img":"https://res.cloudinary.com/dg1okcxsx/image/upload/v1764839121/programming-background-with-person-working-with-codes-computer_dg5zi6.jpg",
+        "category": "Data Science",
         "price": 119.99
     },
     {
@@ -148,6 +158,7 @@
             "Mock Exam"
         ],
         "img":"https://res.cloudinary.com/dg1okcxsx/image/upload/v1764839121/programming-background-with-person-working-with-codes-computer_dg5zi6.jpg",
+        "category": "Web Development",
         "price": 79.99
     },
     {
@@ -163,6 +174,7 @@
             "Project Work"
         ],
         "img":"https://res.cloudinary.com/dg1okcxsx/image/upload/v1764839121/programming-background-with-person-working-with-codes-computer_dg5zi6.jpg",
+        "category": "Web Development",
         "price": 44.99
     },
     {
@@ -178,6 +190,7 @@
             "CTF Challenges"
         ],
         "img":"https://res.cloudinary.com/dg1okcxsx/image/upload/v1764839121/programming-background-with-person-working-with-codes-computer_dg5zi6.jpg",
+        "category": "Data Science",
         "price": 129.99
     },
     {
@@ -193,6 +206,7 @@
             "Database Project"
         ],
         "img":"https://res.cloudinary.com/dg1okcxsx/image/upload/v1764839121/programming-background-with-person-working-with-codes-computer_dg5zi6.jpg",
+        "category": "Web Development",
         "price": 49.99
     },
     {
@@ -208,6 +222,7 @@
             "Deployment"
         ],
         "img":"https://res.cloudinary.com/dg1okcxsx/image/upload/v1764839127/html-css-collage-concept-with-person_xhj7ai.jpg",
+        "category": "App Development",
         "price": 109.99
     },
     {
@@ -223,6 +238,7 @@
             "Hands-on Project"
         ],
         "img":"https://res.cloudinary.com/dg1okcxsx/image/upload/v1764839127/html-css-collage-concept-with-person_xhj7ai.jpg",
+        "category": "Data Science",
         "price": 29.99
     },
     {
@@ -238,6 +254,7 @@
             "DApp Project"
         ],
         "img":"https://res.cloudinary.com/dg1okcxsx/image/upload/v1764839127/html-css-collage-concept-with-person_xhj7ai.jpg",
+        "category": "Web Development",
         "price": 149.99
     },
     {
@@ -253,6 +270,7 @@
             "Portfolio Creation"
         ],
         "img":"https://res.cloudinary.com/dg1okcxsx/image/upload/v1764839127/html-css-collage-concept-with-person_xhj7ai.jpg",
+        "category": "Design",
         "price": 39.99
     },
     {
@@ -268,6 +286,7 @@
             "Rendering"
         ],
         "img":"https://res.cloudinary.com/dg1okcxsx/image/upload/v1764839127/html-css-collage-concept-with-person_xhj7ai.jpg",
+        "category": "Marketing",
         "price": 54.99
     },
     {
@@ -283,6 +302,7 @@
             "Project Work"
         ],
         "img":"https://res.cloudinary.com/dg1okcxsx/image/upload/v1764839127/html-css-collage-concept-with-person_xhj7ai.jpg",
+       "category": "Data Science",
         "price": 24.99
     },
     {
@@ -298,6 +318,7 @@
             "Case Study"
         ],
         "img":"https://res.cloudinary.com/dg1okcxsx/image/upload/v1764839127/html-css-collage-concept-with-person_xhj7ai.jpg",
+        "category": "Marketing",
         "price": 64.99
     }
 ]
