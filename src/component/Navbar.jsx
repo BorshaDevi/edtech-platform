@@ -26,7 +26,7 @@ export default function Navbar() {
               </HoverCardTrigger>
               <HoverCardContent>
                 <div className="grid grid-cols-1">
-                  <Link href='' >Dashborad</Link>
+                  <Link href='/dashboard' >Dashborad</Link>
                 <Button className='mt-3'>Logout</Button>
                 </div>
               </HoverCardContent>
