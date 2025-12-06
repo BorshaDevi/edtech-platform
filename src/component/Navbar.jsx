@@ -8,9 +8,12 @@ import {
 } from "@/components/ui/hover-card"
 import { Button } from "@/components/ui/button";
 import { usePathname } from "next/navigation";
+
+
 export default function Navbar() {
   const pathname=usePathname()
   const user = true;
+
   return (
     <div className={`max-w-full h-14 shadow-lg rounded-md ${pathname === '/dashboard'? 'hidden':'flex'}`}>
       <div className="p-4 w-full">
