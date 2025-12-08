@@ -2,7 +2,7 @@
 import CourseDetail from "@/component/CourseDetail"
 import { useParams } from "next/navigation"
 
-const courseId=()=>{
+const courseSectionId=()=>{
     const params=useParams()
     console.log(params,"courseId page")
     return(
@@ -11,4 +11,4 @@ const courseId=()=>{
         </div>
     )
 }
-export default courseId
+export default courseSectionId;

@@ -6,9 +6,10 @@ import { IoFolderOpenOutline } from "react-icons/io5";
 import { CiUser } from "react-icons/ci";
 import { BiBookmark } from "react-icons/bi";
 import { FiClipboard } from "react-icons/fi";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 const Dashboard = () => {
-    const role = "admin";
+    const role = "user";
     return (
         <div>
             <Sidebar>
@@ -59,7 +60,16 @@ const Dashboard = () => {
                 }
 
                 <SidebarFooter>
-                    <p>Footer</p>
+                    <div className="flex items-center gap-2 px-1 py-1.5 text-left text-sm">
+                <Avatar className="h-8 w-8 rounded-lg">
+                  <AvatarImage src='' alt='' />
+                  <AvatarFallback className="rounded-lg">CN</AvatarFallback>
+                </Avatar>
+                <div className="grid flex-1 text-left text-sm leading-tight">
+                  <span className="truncate font-medium">name</span>
+                  <span className="truncate text-xs">email</span>
+                </div>
+              </div>
                 </SidebarFooter>
                 <SidebarRail />
             </Sidebar>

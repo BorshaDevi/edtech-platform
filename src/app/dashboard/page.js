@@ -1,13 +1,6 @@
 import StudentHomeCard from "@/component/StudentHomeCard";
-import {
-  Card,
-  CardAction,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card"
+
+
 export default function DashboardHomePage() {
   const role='student'
   return (
