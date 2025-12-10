@@ -20,6 +20,7 @@ export default function Navbar() {
         <div className="flex justify-between px-3">
           <h1 className="uppercase text-2xl font-semibold text-cyan-500">EDTech Platform</h1>
           <Link href='/' className={`text-xl`}>Home</Link>
+          <Link href='/coursesection' className={`text-xl`}>Our Courses</Link>
           {user ?
             <HoverCard>
               <HoverCardTrigger>
