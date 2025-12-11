@@ -13,7 +13,7 @@ import { Autoplay, Pagination } from 'swiper/modules';
 const Bannar=()=>{
     return(
         <div className='mt-10 md:ml-10'>
-            <h1 className='text-center font-semibold text-2xl text-cyan-700'> Course Discount</h1>
+            <h1 className='text-center font-semibold text-2xl text-cyan-700 mb-5 underline underline-offset-2'> Course Discount</h1>
             <Swiper
         spaceBetween={30}
         centeredSlides={true}
