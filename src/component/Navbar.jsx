@@ -19,8 +19,10 @@ export default function Navbar() {
       <div className="p-4 w-full">
         <div className="flex justify-between px-3">
           <h1 className="uppercase text-2xl font-semibold text-cyan-500">EDTech Platform</h1>
-          <Link href='/' className={`text-xl`}>Home</Link>
-          <Link href='/coursesection' className={`text-xl`}>Our Courses</Link>
+          <div className="space-x-5 ">
+            <Link href='/' className={`text-xl ${pathname=== '/'? "font-semibold text-cyan-800 underline underline-offset-4":''}`}>Home</Link>
+          <Link href='/coursesection' className={`text-xl ${pathname=== '/coursesection'? "font-semibold text-cyan-800 underline underline-offset-4":''}`}>Our Courses</Link>
+          </div>
           {user ?
             <HoverCard>
               <HoverCardTrigger>
