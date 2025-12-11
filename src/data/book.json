@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "Learn JavaScript",
+    "author": "John Doe",
+    "price": 25.99,
+    "category": "Web Development",
+    "img": "https://via.placeholder.com/150?text=JavaScript"
+  },
+  {
+    "id": 2,
+    "title": "Mastering React",
+    "author": "Jane Smith",
+    "price": 30.5,
+    "category": "Web Development",
+    "img": "https://via.placeholder.com/150?text=React"
+  },
+  {
+    "id": 3,
+    "title": "Digital Marketing 101",
+    "author": "Mark Johnson",
+    "price": 20.0,
+    "category": "Marketing",
+    "img": "https://via.placeholder.com/150?text=Marketing"
+  },
+  {
+    "id": 4,
+    "title": "Data Science with Python",
+    "author": "Alice Brown",
+    "price": 35.75,
+    "category": "Data Science",
+    "img": "https://via.placeholder.com/150?text=Data+Science"
+  },
+  {
+    "id": 5,
+    "title": "UI/UX Design Principles",
+    "author": "Emily Davis",
+    "price": 22.5,
+    "category": "Design",
+    "img": "https://via.placeholder.com/150?text=Design"
+  },
+  {
+    "id": 6,
+    "title": "Android App Development",
+    "author": "Michael Wilson",
+    "price": 28.99,
+    "category": "App Development",
+    "img": "https://via.placeholder.com/150?text=Android"
+  },
+  {
+    "id": 7,
+    "title": "Python for Data Analysis",
+    "author": "Sophia Lee",
+    "price": 33.0,
+    "category": "Data Science",
+    "img": "https://via.placeholder.com/150?text=Python"
+  },
+  {
+    "id": 8,
+    "title": "Effective SEO Strategies",
+    "author": "David Miller",
+    "price": 18.75,
+    "category": "Marketing",
+    "img": "https://via.placeholder.com/150?text=SEO"
+  },
+  {
+    "id": 9,
+    "title": "Advanced CSS Techniques",
+    "author": "Chris Taylor",
+    "price": 27.5,
+    "category": "Web Development",
+    "img": "https://via.placeholder.com/150?text=CSS"
+  },
+  {
+    "id": 10,
+    "title": "iOS App Development",
+    "author": "Sarah Anderson",
+    "price": 29.99,
+    "category": "App Development",
+    "img": "https://via.placeholder.com/150?text=iOS"
+  }
+]
