@@ -134,7 +134,11 @@
     --sidebar-ring: oklch(0.439 0 0);
   }
 }
-
+@layer base{
+  .card{
+    @apply rounded-md bg-linear-to-r from-cyan-400 to-blue-400 w-56 h-full p-2
+  }
+}
 @layer base {
   * {
     @apply border-border outline-ring/50;
