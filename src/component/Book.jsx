@@ -4,16 +4,21 @@ import {
   HoverCardTrigger,
 } from "@/components/ui/hover-card"
 import books from "@/data/book.json";
+import Marquee from "react-fast-marquee";
+
+
+
 const Book = () => {
   return (
     <div className='mt-10 md:ml-10'>
       <h1 className='text-center font-semibold text-2xl text-cyan-700 mb-5 underline underline-offset-2'>Our Books</h1>
+      <Marquee >
       <div className="flex gap-5">
         {
            books.map(book => (
             <div key={book.id}>
               {/* Hover card */}
-          <HoverCard>
+          <HoverCard className='hover:cursor-pointer'>
         <HoverCardTrigger>
           {/* card */}
           <div className="card">
@@ -21,7 +26,7 @@ const Book = () => {
             <h1 className="text-2xl font-medium">{book.title}</h1>
           </div>
         </HoverCardTrigger>
-        <HoverCardContent className="w-60">
+        <HoverCardContent className="w-60 bg-cyan-200">
           <h1 className="text-xl space-x-2"><span >Author:</span><span className="text-cyan-700">{book.author}</span></h1>
           <p className="text-xl space-x-2"><span >Price:</span><span className="text-green-500">{book.price}TK.</span></p>
         </HoverCardContent>
@@ -30,7 +35,7 @@ const Book = () => {
            ))
         }
       </div>
-
+      </Marquee>
     </div>
   )
 }
