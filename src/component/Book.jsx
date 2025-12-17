@@ -17,7 +17,7 @@ const Book = () => {
         <HoverCardTrigger>
           {/* card */}
           <div className="card">
-            <img className='rounded-b-md p-1 ' src='https://res.cloudinary.com/dg1okcxsx/image/upload/v1764839127/html-css-collage-concept-with-person_xhj7ai.jpg'></img>
+            <img className='rounded-b-md p-1 ' src={book.img} alt={book.title}></img>
             <h1 className="text-2xl font-medium">{book.title}</h1>
           </div>
         </HoverCardTrigger>
