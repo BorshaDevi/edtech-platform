@@ -9,7 +9,7 @@ const StudentHomeCard = ({title , progress}) => {
     console.log(title ,progress)
     return (
         <div>
-            <Card className='bg-gradient-to-r from-white  to-cyan-400 '>
+            <Card className='card w-80'>
                 <CardHeader>
                     <CardTitle>{title}</CardTitle>
                 </CardHeader>

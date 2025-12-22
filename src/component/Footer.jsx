@@ -1,6 +1,9 @@
+'use client'
+import { usePathname } from "next/navigation";
 const Footer=()=>{
+  const pathname=usePathname()
     return(
-        <div className='mt-10 md:ml-10 max-w-full md:pr-17  mx-auto h-auto '>
+        <div className={`mt-10 md:ml-10 ${pathname === '/dashboard'? 'hidden':'block'} max-w-full  md:pr-17  mx-auto h-auto `}>
             <div className="bg-linear-to-r from-cyan-900 to-cyan-200  text-center">
               <div className="grid grid-cols-2 p-8">
                 <h1 className="uppercase text-2xl font-semibold text-cyan-500">EDTech Platform</h1>
